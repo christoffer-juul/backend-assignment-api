@@ -7,5 +7,4 @@ public class AssignmentModel
     public string Level { get; set; } = string.Empty;
     public int Hours { get; set; }
     public string Status { get; set; } = "not-started";
-    public string IconUrl { get; set; } = string.Empty;
 }

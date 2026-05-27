@@ -32,10 +32,6 @@ namespace Assignment.Api.Migrations
                     b.Property<int>("Hours")
                         .HasColumnType("int");
 
-                    b.Property<string>("IconUrl")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Level")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -57,7 +53,6 @@ namespace Assignment.Api.Migrations
                         {
                             Id = 1,
                             Hours = 12,
-                            IconUrl = "/images/assignments/design-icon.png",
                             Level = "Advanced",
                             Name = "Design Accessibility",
                             Status = "in-progress"
@@ -66,7 +61,6 @@ namespace Assignment.Api.Migrations
                         {
                             Id = 2,
                             Hours = 16,
-                            IconUrl = "/images/assignments/figma-logo.png",
                             Level = "Intermediate",
                             Name = "Figma for Beginner",
                             Status = "in-progress"
@@ -75,7 +69,6 @@ namespace Assignment.Api.Migrations
                         {
                             Id = 3,
                             Hours = 22,
-                            IconUrl = "/images/assignments/framer-logo.png",
                             Level = "Advanced",
                             Name = "Framer Design",
                             Status = "completed"
@@ -84,7 +77,6 @@ namespace Assignment.Api.Migrations
                         {
                             Id = 4,
                             Hours = 14,
-                            IconUrl = "/images/assignments/appstore-icon.png",
                             Level = "Intermediate",
                             Name = "Frontend Development",
                             Status = "in-progress"
@@ -93,7 +85,6 @@ namespace Assignment.Api.Migrations
                         {
                             Id = 5,
                             Hours = 18,
-                            IconUrl = "/images/assignments/behance-logo.png",
                             Level = "Intermediate",
                             Name = "Behance Case Study",
                             Status = "in-progress"
@@ -102,7 +93,6 @@ namespace Assignment.Api.Migrations
                         {
                             Id = 6,
                             Hours = 10,
-                            IconUrl = "/images/assignments/design-icon.png",
                             Level = "Beginner",
                             Name = "UI Design Fundamentals",
                             Status = "in-progress"
@@ -111,7 +101,6 @@ namespace Assignment.Api.Migrations
                         {
                             Id = 7,
                             Hours = 20,
-                            IconUrl = "/images/assignments/appstore-icon.png",
                             Level = "Beginner",
                             Name = "React for Beginners",
                             Status = "in-progress"
@@ -120,7 +109,6 @@ namespace Assignment.Api.Migrations
                         {
                             Id = 8,
                             Hours = 14,
-                            IconUrl = "/images/assignments/appstore-icon.png",
                             Level = "Intermediate",
                             Name = "TypeScript Essentials",
                             Status = "completed"
@@ -129,7 +117,6 @@ namespace Assignment.Api.Migrations
                         {
                             Id = 9,
                             Hours = 18,
-                            IconUrl = "/images/assignments/design-icon.png",
                             Level = "Advanced",
                             Name = "UX Research Methods",
                             Status = "in-progress"
@@ -138,7 +125,6 @@ namespace Assignment.Api.Migrations
                         {
                             Id = 10,
                             Hours = 24,
-                            IconUrl = "/images/assignments/design-icon.png",
                             Level = "Intermediate",
                             Name = "Motion Design with After Effects",
                             Status = "completed"
